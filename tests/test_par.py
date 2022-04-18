@@ -8,7 +8,7 @@ from ejercicios.operaciones import espar
 class TestClass:
 
     # Test para la operación suma
-    def test_suma(self):
+    def test_par(self):
         assert espar(4) == True
         assert espar(75) == False
         assert espar(100) == True
